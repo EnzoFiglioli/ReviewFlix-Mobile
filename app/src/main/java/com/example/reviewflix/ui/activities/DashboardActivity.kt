@@ -1,5 +1,6 @@
 package com.example.reviewflix.ui.activities
 
+import MovieAdapter
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -11,7 +12,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.reviewflix.R
 import com.example.reviewflix.model.Movie
 import com.example.reviewflix.repositories.MovieRepository
-import com.example.reviewflix.ui.adapters.MovieAdapter
 
 class DashboardActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,7 +27,6 @@ class DashboardActivity : AppCompatActivity() {
         recyclerView.adapter = MovieAdapter(movies){movie ->
             val intent = Intent(this,MovieDetailActivity::class.java)
             intent.putExtra("movie",movie)
-            Toast.makeText(this,"Click ${movie.title}!", Toast.LENGTH_LONG).show()
             startActivity(intent)
         }
     }

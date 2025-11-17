@@ -2,7 +2,9 @@ package com.example.reviewflix.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ImageView
 import android.widget.TextView
+import com.bumptech.glide.Glide
 import com.example.reviewflix.R
 import com.example.reviewflix.model.Movie
 
@@ -24,5 +26,10 @@ class MovieDetailActivity : AppCompatActivity() {
 
         val description = findViewById<TextView>(R.id.tvDescription)
         description.text = movie.description
+
+        val poster : ImageView = findViewById(R.id.imgPoster)
+        Glide.with(this)
+            .load(movie.poster)
+            .into(poster)
     }
 }

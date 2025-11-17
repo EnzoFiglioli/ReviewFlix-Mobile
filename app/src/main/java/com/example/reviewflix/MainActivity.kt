@@ -14,7 +14,6 @@ class MainActivity : AppCompatActivity() {
         val btnShowMovies = findViewById<Button>(R.id.btnShowMovies)
 
         btnShowMovies.setOnClickListener{
-            Toast.makeText(this,"Click en ver Peliculas", Toast.LENGTH_LONG).show()
             val intent = Intent(this,DashboardActivity::class.java)
             startActivity(intent)
         }

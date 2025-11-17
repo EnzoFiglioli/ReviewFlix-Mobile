@@ -7,5 +7,6 @@ data class Movie(
     val year : Int,
     val genre : String,
     val director : String,
-    val description : String
+    val description : String,
+    val poster : String
 ): Serializable
