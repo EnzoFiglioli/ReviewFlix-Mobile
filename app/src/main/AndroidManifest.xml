@@ -12,9 +12,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ReviewFlix"
         android:usesCleartextTraffic="true">
+        <activity
+            android:name=".ui.activities.ProfileActivity"
+            android:exported="false" />
+
         <meta-data
             android:name="com.google.android.actions"
             android:resource="@menu/bottom_nav_menu" />
+
         <activity
             android:name=".ui.activities.MovieDetailActivity"
             android:exported="false" />
@@ -26,6 +31,7 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

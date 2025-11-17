@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">ReviewFlix</string>
     <string name="logo_styled">Review&lt;font color="#9E0000"&gt;Flix&lt;/font&gt;</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
