@@ -23,6 +23,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/logo_styled"
+        android:fontFamily="sans-serif-condensed-medium"
         android:textColor="#FFF"
         android:textSize="70sp"
         android:gravity="center"

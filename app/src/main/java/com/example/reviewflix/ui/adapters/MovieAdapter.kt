@@ -29,7 +29,6 @@ class MovieAdapter(
 
     override fun onBindViewHolder(holder: MovieViewHolder, position: Int) {
         val movie = movies[position]
-
         holder.title.text = movie.title
         holder.director.text = movie.director
         holder.year.text = movie.year.toString()

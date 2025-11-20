@@ -4,21 +4,21 @@ import com.example.reviewflix.model.Movie
 
 class MovieRepository {
     public val movies = listOf(
-        /*Movie("Memento", 2000, "Sci-fi", "Christopher Nolan",
-            "Un hombre con amnesia reciente intenta encontrar al asesino de su esposa usando notas y tatuajes.",""),
+        Movie("Memento", 2000, "Sci-fi", "Christopher Nolan",
+            "Un hombre con amnesia reciente intenta encontrar al asesino de su esposa usando notas y tatuajes.","https://www.originalfilmart.com/cdn/shop/products/Memento_2000_original_film_art_5000x.jpg"),
         Movie("Star Wars IV: A New Hope", 1977, "Sci-fi", "George Lucas",
-            "Luke Skywalker se une a la Rebelión para enfrentar al Imperio Galáctico.",""),
+            "Luke Skywalker se une a la Rebelión para enfrentar al Imperio Galáctico.","https://postercity.com.ar/wp-content/uploads/2019/11/Star-Wars-60-x-90-low.jpg"),
         Movie("Vertigo", 1958, "Thriller", "Alfred Hitchcock",
-            "Un detective desarrolla una peligrosa obsesión por una mujer misteriosa.",""),
+            "Un detective desarrolla una peligrosa obsesión por una mujer misteriosa.","https://postercity.com.ar/wp-content/uploads/2019/07/Vertigomovie_restoration-60-x-90-low.jpg"),
         Movie("Annie Hall", 1977, "Comedy", "Woody Allen",
-            "Un comediante reflexiona sobre su relación fallida con Annie Hall.",""),
+            "Un comediante reflexiona sobre su relación fallida con Annie Hall.","https://www.originalfilmart.com/cdn/shop/products/annie_hall_1977_intl_linen_original_film_art_5000x.jpg"),
         Movie(
             "The Matrix",
             1999,
             "Sci-fi",
             "Lana & Lilly Wachowski",
             "Un hacker descubre que la realidad es una simulación creada por máquinas y se une a un grupo de rebeldes para liberar a la humanidad.",
-            ""
+            "https://m.media-amazon.com/images/I/51ISve-1n1S._AC_UF894,1000_QL80_.jpg"
         ),
 
         Movie(
@@ -27,7 +27,7 @@ class MovieRepository {
             "Crime",
             "Quentin Tarantino",
             "Historias de criminales, boxeadores y mafiosos se entrelazan en un relato no lineal lleno de humor negro y violencia estilizada.",
-            ""
+            "https://postercity.com.ar/wp-content/uploads/2017/07/Pulpfiction.jpg"
         ),
 
         Movie(
@@ -36,9 +36,8 @@ class MovieRepository {
             "Crime",
             "Francis Ford Coppola",
             "La historia de la familia Corleone, donde el joven Michael se ve obligado a involucrarse en el mundo del crimen organizado.",
-            ""
-        ),*/
-
+            "https://m.media-amazon.com/images/M/MV5BNGEwYjgwOGQtYjg5ZS00Njc1LTk2ZGEtM2QwZWQ2NjdhZTE5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+        ),
         Movie(
             "Blade Runner",
             1982,

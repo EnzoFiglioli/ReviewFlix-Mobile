@@ -10,6 +10,11 @@
         android:icon="@drawable/ic_search"
     />
     <item
+        android:id="@+id/nav_add"
+        android:title="Puntar"
+        android:icon="@drawable/ic_add"
+        />
+    <item
         android:id="@+id/nav_movies"
         android:title="Películas"
         android:icon="@drawable/ic_movies"/>
